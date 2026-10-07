@@ -96,7 +96,7 @@ export default function Portfolio({ hero = 'ink', showGrid = true }: { hero?: 'i
             </div>
             <h1 className="hero-title" data-reveal="80">I build <span className="accent">software that matters</span> reliable systems that make a real difference in people&apos;s lives.</h1>
             <div className="hero-meta" data-reveal="200">
-              <p className="lead">Hi, I&apos;m Youcef — a software engineer from Algiers. I architect APIs, data models and real-time services with NestJS and PostgreSQL, and ship the Next.js frontends on top.</p>
+              <p className="lead">Hi, I&apos;m Youcef a software engineer from Algiers. I architect APIs, data models and real-time services with NestJS and PostgreSQL, and ship the Next.js frontends on top.</p>
               <div className="meta-block"><span className="eyebrow muted">Currently</span><strong>Software Engineer at Exacode</strong><span className="muted">Since March 2026</span></div>
               <div className="cta-col">
                 <a href="#work" className="btn btn-primary btn-wide">See selected work <Arrow /></a>
@@ -107,10 +107,10 @@ export default function Portfolio({ hero = 'ink', showGrid = true }: { hero?: 'i
         ) : (
           <section className="hero-red">
             <div className="wrap hero-red-inner">
-              <span className="eyebrow" data-reveal="0">Youcef Morsi — Software Engineer, Algiers</span>
+              <span className="eyebrow" data-reveal="0">Youcef Morsi Software Engineer, Algiers</span>
               <h1 className="hero-title" data-reveal="80" style={{ maxWidth: '14ch' }}>Software that makes a real difference.</h1>
               <div className="hero-red-foot" data-reveal="200">
-                <p className="lead">Healthcare platforms, multi-tenant commerce and contactless payments — built with NestJS, PostgreSQL and Next.js.</p>
+                <p className="lead">Healthcare platforms, multi-tenant commerce and contactless payments built with NestJS, PostgreSQL and Next.js.</p>
                 <a href="#work" className="btn btn-invert btn-wide">See selected work <Arrow /></a>
               </div>
             </div>
@@ -127,7 +127,7 @@ export default function Portfolio({ hero = 'ink', showGrid = true }: { hero?: 'i
 
         <section id="work" className="wrap section">
           <div className="section-head split" data-reveal="0">
-            <div><span className="eyebrow red">01 — Selected work</span><h2>Things I&apos;ve architected</h2></div>
+            <div><span className="eyebrow red">01 Selected work</span><h2>Things I&apos;ve architected</h2></div>
             <div className="filters" role="tablist">
               {FILTERS.map(f => <button key={f} role="tab" aria-selected={f === filter} className={f === filter ? 'active' : ''} onClick={() => setFilter(f)}>{f}</button>)}
             </div>
@@ -150,7 +150,7 @@ export default function Portfolio({ hero = 'ink', showGrid = true }: { hero?: 'i
         </section>
 
         <section id="experience" className="wrap section">
-          <div className="section-head" data-reveal="0"><span className="eyebrow red">02 — Experience</span><h2>Where I&apos;ve shipped</h2></div>
+          <div className="section-head" data-reveal="0"><span className="eyebrow red">02 Experience</span><h2>Where I&apos;ve shipped</h2></div>
           <div className="rule-top">
             {JOBS.map((j, i) => {
               const isOpen = open === i;
@@ -173,7 +173,7 @@ export default function Portfolio({ hero = 'ink', showGrid = true }: { hero?: 'i
         </section>
 
         <section id="skills" className="wrap section">
-          <div className="section-head" data-reveal="0"><span className="eyebrow red">03 — Toolkit</span><h2>What I work with</h2></div>
+          <div className="section-head" data-reveal="0"><span className="eyebrow red">03 Toolkit</span><h2>What I work with</h2></div>
           <div className="skills rule-top">
             {SKILLS.map(s => (
               <div key={s.group} className="skill-col" data-reveal="0">
@@ -183,7 +183,7 @@ export default function Portfolio({ hero = 'ink', showGrid = true }: { hero?: 'i
             ))}
           </div>
           <div className="edu" data-reveal="0">
-            <span className="muted small">2021 — 2024</span>
+            <span className="muted small">2021 2024</span>
             <div className="edu-text">
               <span className="eyebrow red">Education</span>
               <strong className="edu-title">Licence in Information Systems &amp; Software Engineering</strong>
@@ -194,11 +194,11 @@ export default function Portfolio({ hero = 'ink', showGrid = true }: { hero?: 'i
 
         <section id="contact" className="contact">
           <div className="wrap contact-inner">
-            <span className="eyebrow" data-reveal="0">04 — Contact</span>
+            <span className="eyebrow" data-reveal="0">04 Contact</span>
             <h2 className="contact-title" data-reveal="80">Hiring for backend or full-stack? Let&apos;s talk.</h2>
             <div className="contact-grid" data-reveal="160">
               <button className="contact-cell first" onClick={copyEmail}>
-                <span className="eyebrow">{copied ? 'Copied to clipboard ✓' : 'Email — click to copy'}</span>
+                <span className="eyebrow">{copied ? 'Copied to clipboard ✓' : 'Email click to copy'}</span>
                 <span className="contact-val break">{CONTACT.email}</span>
               </button>
               <a className="contact-cell" href={CONTACT.github} target="_blank" rel="noreferrer"><span className="eyebrow">GitHub ↗</span><span className="contact-val">MorsiYoucef</span></a>

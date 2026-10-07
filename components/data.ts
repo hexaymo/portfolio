@@ -5,16 +5,16 @@ export type Project = {
 export type Job = { company: string; role: string; dates: string; current?: boolean; points: string[] };
 
 export const PROJECTS: Project[] = [
-  { num: '01', domain: 'Healthcare · ERP', image: '/images/HIS.jpg', title: 'Hospital Information System', summary: 'Migrating a legacy desktop hospital system to a modern, role-based web platform — from patient intake to pharmacy stock.', role: 'Technical lead & backend architect', context: 'Legacy desktop → web migration',
+  { num: '01', domain: 'Healthcare · ERP', image: '/images/HIS.jpg', title: 'Hospital Information System', summary: 'Migrating a legacy desktop hospital system to a modern, role-based web platform from patient intake to pharmacy stock.', role: 'Technical lead & backend architect', context: 'Legacy desktop → web migration',
     points: ['Architected the platform on NestJS, Next.js and PostgreSQL, replacing a legacy desktop system.', 'Implemented RBAC, patient accounts, medical records, diagnostics, pharmacy stock and result management.', 'Designed the REST APIs, database schemas, testing strategy, documentation and deployment architecture.'],
     stack: ['NestJS', 'Next.js', 'TypeScript', 'PostgreSQL', 'Prisma', 'Docker', 'Redis', 'Nginx', 'CI/CD'] },
-  { num: '02', domain: 'Commerce · SaaS', image: '/images/cms.jpg', title: 'Multi-Tenant E-Commerce SaaS', summary: 'A platform for launching and running online stores — products, templates, subscriptions and custom domains, with data isolated per tenant.', role: 'Architecture & full-stack', context: 'Multi-tenant SaaS',
+  { num: '02', domain: 'Commerce · SaaS', image: '/images/cms.jpg', title: 'Multi-Tenant E-Commerce SaaS', summary: 'A platform for launching and running online store products, templates, subscriptions and custom domains, with data isolated per tenant.', role: 'Architecture & full-stack', context: 'Multi-tenant SaaS',
     points: ['Designed store creation and management with products, templates, subscriptions and custom domains.', 'Planned the multi-tenant architecture, PostgreSQL data isolation, authentication and payment integration.', 'Improved reliability through testing, observability, deployment and CI/CD practices.'],
     stack: ['Next.js', 'TypeScript', 'React', 'Tailwind CSS', 'PostgreSQL', 'Laravel', 'Inertia', 'Docker', 'Jenkins', 'CI/CD', 'Github actions'] },
   { num: '03', domain: 'Fintech · Mobile', image: '/images/tap_to_pay.webp', title: 'Tap-to-Pay Mobile App', summary: 'A React Native app that turns a phone into a contactless payment terminal, built at HeroPay.',role: 'Mobile engineer', context: 'HeroPay · 2025',
     points: ['Developed a React Native / Expo app for contactless Tap-to-Pay transactions.', 'Worked with NFC payment flows and integrated APIs to support secure transactions.', 'Improved app performance and partnered with backend teams on API integration.'],
     stack: ['React Native', 'Expo', 'NFC', 'TypeScript', 'REST'] },
-  { num: '04', domain: 'IoT · Hackathon', image: '/images/smar.png', title: 'Smart Warehouse', summary: 'A real-time warehouse monitoring system built under hackathon pressure — one of many hackathons, two of them won.',role: 'Full-stack', context: 'Hackathon · 2× winner overall',
+  { num: '04', domain: 'IoT · Hackathon', image: '/images/smar.png', title: 'Smart Warehouse', summary: 'A real-time warehouse monitoring system built under hackathon pressure one of many hackathons, two of them won.', role: 'Full-stack', context: 'Hackathon · 2× winner overall',
     points: ['Built sensor-to-dashboard messaging over MQTT with a Node.js backend.', 'Modelled inventory data in PostgreSQL with Prisma and shipped a React dashboard.'],
     stack: ['Node.js', 'React', 'PostgreSQL', 'Prisma', 'MQTT'] },
 ];

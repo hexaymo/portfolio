@@ -5,7 +5,7 @@ import './globals.css';
 const archivo = Archivo({ subsets: ['latin'], weight: ['400', '600', '800'], variable: '--font-archivo' });
 
 export const metadata: Metadata = {
-  title: 'Youcef Morsi — Software Engineer',
+  title: 'Youcef Morsi Software Engineer',
   description: 'Software engineer in Algiers building reliable backend and full-stack systems with NestJS, PostgreSQL and Next.js.',
 };
 
